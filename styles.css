@@ -4,15 +4,16 @@
     margin-top: 10%;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-}
-
-.square {
     
+
 }
 
 body {
     margin: 0;
     padding: 0;
     background-color: beige;
+    
 }
+
