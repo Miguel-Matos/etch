@@ -1,7 +1,7 @@
 #surface {
     background-color: white;
-    margin: auto;
-    margin-top: 10%;
+    
+    
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -14,6 +14,110 @@ body {
     margin: 0;
     padding: 0;
     background-color: beige;
-    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
+#back {
+    background-color: rgb(70, 175, 240);
+    width: 600px;
+    height: 600px;
+    margin: 10px auto 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(201, 175, 141);
+    padding: 0 10px;
+}
+
+#navbar p, #navbar h1 {
+    flex: 1;
+    font-family: "VT323";
+}
+
+#navbar p {
+    text-align: right;
+}
+
+footer {
+    
+    background-color: rgb(201, 175, 141);
+    height: 64px;
+    margin-top: auto;
+    display: flex;
+}
+
+footer h3 {
+    font-family: "VT323";
+    margin: auto;
+}
+
+#controls {
+    background-color: rgb(70, 175, 240);
+    width: 600px;
+    height: 50px;
+    margin: 25px auto 10px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+#colors {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.options {
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 25px;
+}
+
+#size {
+    flex: 1;
+    margin: 10px;
+    display: flex;
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#white {
+    background-color: white;
+}
+
+#black {
+    background-color: black;
+}
+
+.btn {
+    flex: 1;
+    height: 25px;
+}
