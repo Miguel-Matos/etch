@@ -64,6 +64,32 @@ function gen (amount) {
     });
     
 }
+function generator(number) {
+    num = number;
+    size = (500 / num) + "px";
+    document.querySelectorAll(".square").forEach(el => el.remove());
+    gen(num);
+}
+
+const eight = document.querySelector("#eight");
+eight.addEventListener("click", () => {
+    generator(8);
+});
+
+const sixteen = document.querySelector("#sixteen");
+sixteen.addEventListener("click", () => {
+    generator(16);
+});
+
+const thirtytwo = document.querySelector("#thirtytwo");
+thirtytwo.addEventListener("click", () => {
+    generator(32);
+});
+
+const twentyfour = document.querySelector("#twentyfour");
+twentyfour.addEventListener("click", () => {
+    generator(24);
+});
 
 
 gen(num);
